@@ -5,6 +5,8 @@ h1 {
   color: black;
   font-size: 40px;
   font-family: Helvetica, sans-serif;
+  padding: 20px;
+  text-align: center;
 }
 
 h2 {
@@ -30,6 +32,7 @@ h3 {
 
 .li-navigation {
   display: inline;
+  float: left;
 }
 
 .a-navigation {
@@ -45,8 +48,42 @@ li a:hover {
   background-color: #74A7A9;
 }
 
+/*code for links in general; this code will also apply to nav links*/
+/* selected links */
+a:active {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: #FFDDDC;
+}
+
+/*code for unordered lists*/
+ul {
+  list-style-type: circle;
+  font-family:  Helvetica, sans-serif;
+  font-size: 15px;
+}
+
 /*code for paragraphs*/
 p {
   font-family:  Helvetica, sans-serif;
   font-size: 15px;
+}
+
+/*code for About page*/
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
