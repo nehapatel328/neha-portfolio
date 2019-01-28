@@ -1,0 +1,52 @@
+/*Note on colors: #043E41 for teal; #987122 for gold; #982522 for pinkish red; go to http://paletton.com/#uid=33j0u0kkynpac-PfyswoVj5umdy*/
+
+/*code for h1, h2, h3*/
+h1 {
+  color: black;
+  font-size: 40px;
+  font-family: Helvetica, sans-serif;
+}
+
+h2 {
+  color: black;
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+}
+
+h3 {
+  color:  #043E41;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+}
+
+/*code for navigation bar, the class is "naviagation"*/
+.ul-navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #BA4643;
+}
+
+.li-navigation {
+  display: inline;
+}
+
+.a-navigation {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the navigation link color to #74A7A9 (teal) on hover */
+li a:hover {
+  background-color: #74A7A9;
+}
+
+/*code for paragraphs*/
+p {
+  font-family:  Helvetica, sans-serif;
+  font-size: 15px;
+}
