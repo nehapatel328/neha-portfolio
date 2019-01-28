@@ -54,6 +54,11 @@ a:active {
   color: blue;
 }
 
+/* current page */
+.active {
+  background-color: #74A7A9;
+}
+
 /* visited link */
 a:visited {
   color: #FFDDDC;
