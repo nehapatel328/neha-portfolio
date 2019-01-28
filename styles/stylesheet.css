@@ -2,7 +2,7 @@
 
 /*code for h1, h2, h3*/
 h1 {
-  color: black;
+  color: #043E41;
   font-size: 40px;
   font-family: Helvetica, sans-serif;
   padding: 20px;
@@ -10,13 +10,13 @@ h1 {
 }
 
 h2 {
-  color: black;
+  color: #15595C;
   font-size: 30px;
   font-family: Helvetica, sans-serif;
 }
 
 h3 {
-  color:  #043E41;
+  color: black;
   font-size: 25px;
   font-family: Helvetica, sans-serif;
 }
@@ -86,4 +86,16 @@ p {
   content: "";
   display: table;
   clear: both;
+}
+
+/* Code for footer */
+footer {
+  background-color: #FFE4AE;
+  text-align: left;
+  padding: 10px;
+}
+
+.footer {
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
 }
