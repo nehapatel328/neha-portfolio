@@ -1,10 +1,13 @@
 /*Note on colors: #043E41 for teal; #987122 for gold; #982522 for pinkish red; go to http://paletton.com/#uid=33j0u0kkynpac-PfyswoVj5umdy*/
+*{
+  box-sizing: border-box;
+}
 
 /*code for h1, h2, h3*/
 h1 {
   color: #043E41;
   font-size: 40px;
-  font-family: Helvetica, sans-serif;
+  font-family: "Frank Ruhl Libre", serif;
   padding: 20px;
   text-align: center;
 }
@@ -12,16 +15,16 @@ h1 {
 h2 {
   color: #15595C;
   font-size: 30px;
-  font-family: Helvetica, sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 h3 {
   color: black;
   font-size: 25px;
-  font-family: Helvetica, sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
 }
 
-/*code for navigation bar, the class is "naviagation"*/
+/*code for navigation bar, the class is "navigation"*/
 .ul-navigation {
   list-style-type: none;
   margin: 0;
@@ -67,38 +70,132 @@ a:visited {
 /*code for unordered lists*/
 ul {
   list-style-type: circle;
-  font-family:  Helvetica, sans-serif;
+  font-family:  "Hind Siliguri", sans-serif;
   font-size: 15px;
 }
 
+/*code for icons*/
+
+.fa-pen-fancy{
+  color: #BA4643;
+}
+
+.fa-sticky-note {
+  color: #BA4643;
+}
+
+.fa-code{
+  color: #BA4643;
+}
+
+.fa-arrow-circle-right {
+  color: #BA4643;
+}
+
+
 /*code for paragraphs*/
 p {
-  font-family:  Helvetica, sans-serif;
+  font-family:  "Hind Siliguri", sans-serif;
   font-size: 15px;
 }
 
 /*code for About page*/
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 /* Code for footer */
 footer {
   background-color: #FFE4AE;
-  text-align: left;
   padding: 10px;
 }
 
 .footer {
   font-size: 15px;
-  font-family: Helvetica, sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
 }
+
+/* Code for social media icons. Flexbox has been used, it's under .footer-social */
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.fa-linkedin-in {
+  color: black;
+  font-size: 1.5em;
+  padding-right: 70%;
+}
+
+.fa-instagram {
+  color: black;
+  font-size: 1.5em;
+}
+
+/* REFERENCE
+
+Code for flex box.
+Have a <section> with <div> within it. CSS is for <section> class
+
+.container {
+  display: flex;
+
+  flex-direction: row column row-reverse column reverse;
+
+  flex-wrap: wrap nowrap wrap-reverse;
+
+  justify-content: center flex-end flex-start space-around space-between space-evenly;
+
+  align-items: center baseline stretch flex-end flex-start;
+
+}
+
+Code for floats
+.content-box{
+  float: right;
+}
+
+.clearfix::after{
+      content:"";
+      display: block;
+      clear:both;
+    }
+
+#border-box{
+      overflow: auto;
+    }
+
+
+Sample code for border boxes
+.class{
+   height: 6rem;
+   background-color: pink;
+   padding: 1rem;
+   border-width: 3px;
+   border-style: solid;
+   border-color: green;
+   border: 3px dashed green;
+   margin-bottom: 1rem;
+   margin-top: 1.5rem;
+   margin: 1.5rem; 0 1rem;
+ }
+
+ Code for fonts
+
+  .modern {font-family: Helvetica, Arial, sans-serif;
+  }
+
+  .classic {font-family: "Times New Roman", serif;
+  }
+
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  **Note that sometimes family names have spaces in them. In these cases, the whole name must be wrapped in double quotes.**
+}
+*/
