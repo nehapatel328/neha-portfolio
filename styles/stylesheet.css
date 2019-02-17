@@ -47,24 +47,40 @@ h3 {
 }
 
 /* Change the navigation link color to #74A7A9 (teal) on hover */
+li a {
+  text-decoration: none;
+}
+
+li a:visited {
+  color: #E3BF75;
+}
+
 li a:hover {
   background-color: #74A7A9;
+  text-decoration: none;
 }
 
 /*code for links in general; this code will also apply to nav links*/
 /* selected links */
+a {
+  text-decoration: none;
+}
+
 a:active {
   color: blue;
+}
+
+a:visited {
+  color: #E3BF75;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* current page */
 .active {
   background-color: #74A7A9;
-}
-
-/* visited link */
-a:visited {
-  color: #FFDDDC;
 }
 
 /*code for unordered lists*/
@@ -101,12 +117,24 @@ p {
 
 /*code for About page*/
 
+.index-pic {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-right: 1em; 
+}
+
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.index-column-h3::first-letter{
+  font-size: 200%;
 }
 
 /* Code for footer */
