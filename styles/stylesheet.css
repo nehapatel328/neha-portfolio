@@ -49,6 +49,7 @@ h3 {
 /* Change the navigation link color to #74A7A9 (teal) on hover */
 li a {
   text-decoration: none;
+  transition: border 4s ease-in 1s;
 }
 
 li a:visited {
@@ -64,6 +65,7 @@ li a:hover {
 /* selected links */
 a {
   text-decoration: none;
+  transition: border 4s ease-in 1s;
 }
 
 a:active {
@@ -143,6 +145,22 @@ p {
   font-size: 200%;
 }
 
+/*Code for Resume */
+.resume-education h4:first-child {
+  background: #b6dde3;
+
+}
+
+.resume-experience h4:first-child {
+  background: #b6dde3;
+
+}
+
+.resume-skills h4:first-child {
+  background: #b6dde3;
+
+}
+
 /* Code for footer */
 footer {
   background-color: #FFE4AE;
@@ -166,21 +184,21 @@ footer {
   color: black;
   font-size: 1.5em;
   padding-right: 70%;
+  transition: border 4s ease-in 1s;
 }
 
 .fa-linkedin-in:hover {
   color: #74A7A9;
-  font-size: 2em;
 }
 
 .fa-instagram {
   color: black;
   font-size: 1.5em;
+  transition: border 4s ease-in 1s;
 }
 
 .fa-instagram:hover {
   color: #74A7A9;
-  font-size: 2em;
 }
 
 /* REFERENCE
