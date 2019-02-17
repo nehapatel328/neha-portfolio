@@ -122,7 +122,7 @@ p {
   flex-direction: row-reverse;
   flex-wrap: nowrap;
   justify-content: space-around;
-  padding-right: 1em; 
+  padding-right: 1em;
 }
 
 .row {
@@ -162,9 +162,17 @@ footer {
   padding-right: 70%;
 }
 
+.fa-linkedin-in:hover {
+  color: #74A7A9;
+}
+
 .fa-instagram {
   color: black;
   font-size: 1.5em;
+}
+
+.fa-instagram:hover {
+  color: #74A7A9;
 }
 
 /* REFERENCE
