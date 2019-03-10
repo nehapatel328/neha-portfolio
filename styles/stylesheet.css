@@ -175,36 +175,49 @@ label {
   font-family: "Hind Siliguri", serif;
 }
 
+input[type=text] {
+  box-sizing: border-box;
+  border: 3px solid #987122;
+  outline: none;
+}
+
 input[type=text]:hover{
   cursor: text;
 }
 
 input[type=text]:focus {
-  border: 2px solid gray;
+  border: 3px solid #9CD0D2;
+}
+
+input[type=email]{
+  box-sizing: border-box;
+  border: 3px solid #987122;
+  outline: none;
 }
 
 input[type=email]:focus {
-  border: 2px solid gray;
+  border: 3px solid #9CD0D2;
 }
 
 input[type=submit] {
   width: 5%;
   background-color: white;
-  transition: border 4s ease-in 1s;
-}
-
-input[type=submit]:hover {
-  background-color: #74A7A9;
   cursor: pointer;
-  /*outline none because most browsers have a blue outline*/
+  transition: border 1s ease-in 1s;
 }
 
 textarea {
+  box-sizing: border-box;
   width: 50%;
   height: 150px;
   padding: 12px 20px;
-  box-sizing: border-box;
+  border: 3px solid #987122;
+  outline: none;
   resize: none; /*Use the resize property to prevent textareas from being resized (disable the "grabber" in the bottom right corner)*/
+}
+
+textarea:focus {
+  border: 3px solid #9CD0D2;
 }
 
 /* Code for footer */
