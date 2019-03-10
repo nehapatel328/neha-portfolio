@@ -34,6 +34,27 @@
     <p>If you have any inquiries about technical writing, editing or document designing, please fill out the form. I'll reply shortly.</p>
   </section>
 
+  <form method="GET">
+    <label>Your name:
+      <input type="text" name="applicantName">
+    </label>
+
+    <label>Your email:
+      <input type="email" name="applicantEmail">
+    </label>
+
+    <!--the other label syntax-->
+    <label for="city">What city are you in?</label>
+      <input id="city" type="text" name="applicantCity">
+
+    <label> How many pets are in your home?
+      <input type="number" name="petCount">
+    </label> <!--will need validation in handler to avoid negative numbers-->
+
+    <label>Why do you want to adopt a new pet?
+      <textarea name="applicantReason" rows="4" cols="50">Because I love puppies :)</textarea><!--row is how tall and cols is how wide it is-->
+  </form>
+
   <footer>
     <h5>Neha Patel Portfolio</h5>
     <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
