@@ -35,24 +35,27 @@
   </section>
 
   <form method="GET">
-    <label>Your name:
+    <label>Your name
       <input type="text" name="applicantName">
     </label>
 
-    <label>Your email:
+    <label>Your email
       <input type="email" name="applicantEmail">
     </label>
 
     <!--the other label syntax-->
-    <label for="city">What city are you in?</label>
-      <input id="city" type="text" name="applicantCity">
+    <label for="city">Industry</label>
+      <input type="text" type="text" name="applicantIndustry">
 
-    <label> How many pets are in your home?
-      <input type="number" name="petCount">
+    <label> Job title
+      <input type="text" name="applicantTitle">
     </label> <!--will need validation in handler to avoid negative numbers-->
 
-    <label>Why do you want to adopt a new pet?
-      <textarea name="applicantReason" rows="4" cols="50">Because I love puppies :)</textarea><!--row is how tall and cols is how wide it is-->
+    <label>Message
+      <textarea name="applicantMessage" rows="4" cols="50">Type your message here.</textarea><!--row is how tall and cols is how wide it is-->
+
+    <input type="submit"  value="Send">
+
   </form>
 
   <footer>
