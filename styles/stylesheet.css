@@ -171,13 +171,20 @@ button, input, select, textarea {
   margin: 1rem;
 }
 
+form {
+  background-color: #D3D3D3;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 15px;
+  margin-right: 50%;
+}
+
 label {
   font-family: "Hind Siliguri", serif;
 }
 
 input[type=text] {
   box-sizing: border-box;
-  border: 3px solid #987122;
+  border: 3px solid #696969;
   outline: none;
 }
 
@@ -191,7 +198,7 @@ input[type=text]:focus {
 
 input[type=email]{
   box-sizing: border-box;
-  border: 3px solid #987122;
+  border: 3px solid #696969;
   outline: none;
 }
 
@@ -200,7 +207,6 @@ input[type=email]:focus {
 }
 
 input[type=submit] {
-  width: 5%;
   background-color: white;
   cursor: pointer;
   transition: border 1s ease-in 1s;
@@ -211,7 +217,7 @@ textarea {
   width: 50%;
   height: 150px;
   padding: 12px 20px;
-  border: 3px solid #987122;
+  border: 3px solid #696969;
   outline: none;
   resize: none; /*Use the resize property to prevent textareas from being resized (disable the "grabber" in the bottom right corner)*/
 }
