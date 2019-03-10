@@ -180,6 +180,9 @@ form {
 
 label {
   font-family: "Hind Siliguri", serif;
+  display: inline;
+  width: 140px;
+  text-align: right;
 }
 
 input[type=text] {
