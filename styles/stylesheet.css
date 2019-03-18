@@ -3,10 +3,31 @@
   box-sizing: border-box;
 }
 
+/*code for hidden elements*/
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+} /*hides the elements off the page*/
+
+.hidden:focus {
+  left: 0;
+}/*makes visible when focused*/
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+
 /*code for h1, h2, h3*/
 h1 {
   color: #043E41;
-  font-size: 40px;
+  font-size: 2.5em;
   font-family: "Frank Ruhl Libre", serif;
   padding: 20px;
   text-align: center;
@@ -14,14 +35,20 @@ h1 {
 
 h2 {
   color: #15595C;
-  font-size: 30px;
+  font-size: 1.875em;
   font-family: "Hind Siliguri", sans-serif;
 }
 
 h3 {
   color: black;
-  font-size: 25px;
+  font-size: 1.5625em;
   font-family: "Hind Siliguri", sans-serif;
+}
+
+/*code for paragraphs*/
+p {
+  font-family:  "Hind Siliguri", sans-serif;
+  font-size: 1.125em;
 }
 
 /*code for navigation bar, the class is "navigation"*/
@@ -108,12 +135,6 @@ ul {
 
 .fa-arrow-circle-right {
   color: #BA4643;
-}
-
-/*code for paragraphs*/
-p {
-  font-family:  "Hind Siliguri", sans-serif;
-  font-size: 15px;
 }
 
 /*code for About page*/
@@ -236,7 +257,7 @@ footer {
 }
 
 .footer {
-  font-size: 15px;
+  font-size: 1.125em;
   font-family: "Hind Siliguri", sans-serif;
 }
 

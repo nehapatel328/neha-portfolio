@@ -15,6 +15,7 @@
 </head>
 
 <body>
+<a href="#main-content" class="hidden">Skip to main content</a>
 <h1>My Portfolio</h1>
 <nav>
   <ul class="ul-navigation">
@@ -25,7 +26,7 @@
   </ul>
 </nav>
 
-<section>
+<section id="main-content">
   <h2>
     <i class="fas fa-arrow-circle-right"></i>
     My Projects
@@ -39,8 +40,8 @@
 
     <article>
         <h3>Lesson 1</h3>
-        <img src="neha-portfolio-images/image-first-assignment.png" alt="image for my first assignment" height="62" width="62">
-        <p>You can view my first project <a href="https://github.com/nehapatel328/semantic-elements/blob/master/index.html">here</a></p>
+        <img src="neha-portfolio-images/image-first-assignment.png" alt="screenshot of a webpage" height="62" width="62">
+        <span class="sr-only">This link opens in a new tab</span><p>You can view my first project <a href="https://github.com/nehapatel328/semantic-elements/blob/master/index.html" target="_blank">here</a></p>
     </article>
 
     <article>
@@ -67,13 +68,13 @@
   <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
   <div class="footer-social">
     <p>
-      <a href="https://www.linkedin.com/in/neha-pateld/" target="_blank">
+      <span class="sr-only">This link opens in a new tab</span><a href="https://www.linkedin.com/in/neha-pateld/" target="_blank">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </p>
 
     <p>
-      <a href="https://www.instagram.com/neha__petal/" target="_blank">
+      <span class="sr-only">This link opens in a new tab</span><a href="https://www.instagram.com/neha__petal/" target="_blank">
         <i class="fab fa-instagram"></i>
       </a>
     </p>
