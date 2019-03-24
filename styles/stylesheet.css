@@ -178,18 +178,18 @@ ul {
 
 /*Code for Resume */
 .resume-education h4:first-child {
-  background: #b6dde3;
-
+  border: 2px solid #b6dde3;
+  margin-right: 20%;
 }
 
 .resume-experience h4:first-child {
-  background: #b6dde3;
-
+  border: 2px solid #b6dde3;
+  margin-right: 20%;
 }
 
 .resume-skills h4:first-child {
-  background: #b6dde3;
-
+  border: 2px solid #b6dde3;
+  margin-right: 20%;
 }
 
 /*Code for Resume button*/
