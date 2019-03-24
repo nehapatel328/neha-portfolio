@@ -30,6 +30,7 @@ h1 {
   font-size: 2.5em;
   font-family: "Frank Ruhl Libre", serif;
   padding: 20px;
+  margin-bottom: 0.071em;
   text-align: center;
 }
 
@@ -58,7 +59,7 @@ p {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: baseline;
-  padding-top: 1em; x
+  padding-top: 0.071em;
   padding-right: 1em;
 }
 
@@ -206,10 +207,6 @@ ul {
 
 .button:hover,.button:active {
   background-color: #b6dde3;
-}
-
-a:hover, a:active {
-  background-color: red;
 }
 
 /* Code for contact form */
