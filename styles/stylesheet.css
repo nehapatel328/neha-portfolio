@@ -58,6 +58,7 @@ p {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: baseline;
+  padding-top: 1em; x
   padding-right: 1em;
 }
 
@@ -189,6 +190,26 @@ ul {
 .resume-skills h4:first-child {
   background: #b6dde3;
 
+}
+
+/*Code for Resume button*/
+.button:link,.button:visited {
+  background-color: #E3BF75;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:  "Hind Siliguri", sans-serif;
+  font-size: 1em;
+}
+
+.button:hover,.button:active {
+  background-color: #b6dde3;
+}
+
+a:hover, a:active {
+  background-color: red;
 }
 
 /* Code for contact form */
