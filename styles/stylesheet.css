@@ -51,6 +51,16 @@ p {
   font-size: 1.125em;
 }
 
+/*code for header*/
+.header-icon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: baseline;
+  padding-right: 1em;
+}
+
 /*code for navigation bar, the class is "navigation"*/
 .ul-navigation {
   list-style-type: none;
